@@ -5,6 +5,7 @@
     * =  multiplication operator
     / =  int division operator
     % =  modulus operator
+    Different Mathematical functions in C.
 */
 
 int main(){
