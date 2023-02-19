@@ -1,3 +1,5 @@
+//Code 1
+
 /* Mathematical Operators in C 
     +, -, *, /, %
     + =  addition operator
@@ -39,3 +41,32 @@ int main(){
 
     return 0;
 }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Code 2
+
+/* Illustrate the use of unary prefix increment and decrement 
+++ implies 
+    1. increment the value by 1
+    2. return the new value
+-- implies
+    1. decrement the value by 1
+    2. return the new value
+*/
+
+int main(){
+    int num = 10;
+    //increment 
+    printf("\nThe value of num=%d", num);
+    printf("\nThe value of ++num=%d", ++num);
+    printf("\nThe new value of num=%d", num);
+    //decrement 
+    printf("\nThe value of num=%d", num);
+    printf("\nThe value of --num=%d", --num);
+    printf("\nThe new value of num=%d", num);
+
+    return 0;
+}
+
+
