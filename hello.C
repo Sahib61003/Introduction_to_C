@@ -1,5 +1,5 @@
 /* Basic Program
-	 How to print hello world in C.
+	 How to print or display hello world in C.
 Code:
 */
 
