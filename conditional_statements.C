@@ -71,3 +71,120 @@ int main(){
     return 0;
 
 }
+
+// Program to see the significance of nested if and && relational operator
+
+// Program to print largest number using nested if loops
+
+int main(){
+    int num1, num2, num3, big = 0;
+    printf("\nEnter the first number:");
+    scanf("%d", &num1);
+    printf("\nEnter the second number:");
+    scanf("%d", &num2);
+    printf("\nEnter the third number:");
+    scanf("%d", &num3);
+
+    if (num1 > num2){
+        if (num1 > num3){
+        printf("\n%d is greater than %d and %d.", num1, num2, num3);
+        }
+        else{
+            printf("\n%d is greater than %d and %d.", num3, num2, num1);
+        }
+    } 
+    else if (num2 > num1){
+        if (num2 > num3){
+        printf("\n%d is greater than %d and %d.", num2, num1, num3);
+        } 
+        else{
+        printf("\n%d is greater than %d and %d.", num3, num1, num2);
+        }
+    }
+    return 0;
+}
+
+
+// Program to print largest number using && operators without nested if
+int main(){
+    int num1, num2, num3, big = 0;
+    printf("\nEnter the first number: ");
+    scanf("%d", &num1);
+    printf("\nEnter the second number: ");
+    scanf("%d", &num2);
+
+    printf("\nEnter the third number: ");
+    scanf("%d", &num3);
+    
+    if ((num1 > num2) && (num1 > num3)){
+        printf("\n%d is greater than %d and %d", num1, num2, num3);
+    } else if ((num2 > num1) && (num2 > num3)){
+        printf("\n%d is greater than %d and %d", num2, num1, num3);
+    }
+    else{
+        printf("\n%d is greater than %d and %d", num3, num1, num2);
+    }   
+    return 0;
+}
+
+
+// Program to check vowel using if else, without switch.
+
+int main(){
+    char ch;
+    printf("\nEnter any character: ");
+    scanf("%c", &ch);
+    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' ||
+        ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' ||ch == 'O' ||
+        ch == 'U'){
+            printf("\n%c is a vowel.", ch);
+    } else {
+        printf("\n%c is a consonant.", ch);
+    }
+    return 0;
+}
+
+/*  Usage of switch statement 
+    Syntax:
+    switch (expression){
+        case constant1:
+            // statements
+            break;
+        case constant2:
+            // statements
+            break;
+        case constant3:
+            // statements
+            break;
+        default:
+            // statements
+    }
+*/
+
+// Program to check vowel using switch
+
+int main(){
+    char ch;
+    printf("\nEnter any character: ");
+    scanf("%c", &ch);
+    switch (ch){
+        case 'a' :
+        case 'e' :
+        case 'i' :
+        case 'o' :
+        case 'u' :
+        case 'A' :
+        case 'E' :
+        case 'I' :
+        case 'O' :
+        case 'U' :
+            printf("\n%c is vowel", ch);
+            break;
+        default:
+            printf("\n%c is consonant", ch);
+        
+        return 0;
+    }
+}
+
+
