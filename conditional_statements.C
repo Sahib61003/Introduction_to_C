@@ -72,9 +72,10 @@ int main(){
 
 }
 
-// Program to see the significance of nested if and && relational operator
-
-// Program to print largest number using nested if loops
+/*  
+    Codes to see the significance of nested if and && relational operator
+    Program to print largest number using nested if loops
+*/
 
 int main(){
     int num1, num2, num3, big = 0;
