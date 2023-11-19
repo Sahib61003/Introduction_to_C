@@ -1,6 +1,7 @@
 # Introduction to C
 This repository contains the basic C programs that I practiced and learned during my first semester of B.Tech. The purpose of this repository is to provide a reference to anyone who is learning C programming.
 
+This repository also has one folder named 'College_Wallah' where I contributed at the time of revising C language for my college subjects like OS and DAA.
 
 ## Getting Started
 To get started, simply clone this repository and navigate to the relevant folder containing the code you are interested in. Compile and run the code using a C compiler of your choice.
